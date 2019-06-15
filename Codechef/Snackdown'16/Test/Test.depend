@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1465123452 source:h:\himanshu\college data\coding\snackdown\test\main.cpp
+	<iostream>
+	<stdio.h>
+
