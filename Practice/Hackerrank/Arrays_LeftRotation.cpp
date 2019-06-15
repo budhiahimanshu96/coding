@@ -4,8 +4,6 @@
 
 using namespace std;
 
-#define ll long long int
-#define mod 1000000007
 void check(ll a) { cout<<a<<endl; }
 bool prime [1000001];
 int sieve(int a){memset(prime,true,sizeof(prime));int p;int i;for(p=2;p*p<=a;p++){if(prime[p]==true){for(i=p*2;i<=a;i+=p)prime[i]=false;}}return 0;}
