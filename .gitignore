@@ -1,0 +1,49 @@
+#Don't track these files
+
+# TeX files
+*.aux
+*.fmt
+*.dvi
+*.xdv
+*-converted-to.*
+.pdf
+*.synctex
+*.synctex.gz
+*.pdfsync
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+
+# Maven gitignore files and directory
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+#IntelliJ
+.idea/workspace.xml
