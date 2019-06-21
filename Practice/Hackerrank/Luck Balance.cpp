@@ -18,7 +18,6 @@ vector<string> split_string(string);
 // Complete the luckBalance function below.
 int luckBalance(int k, vector<vector<int>> contests) {
 	//Working here!
-	
 }
 
 int main()
